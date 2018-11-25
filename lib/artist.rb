@@ -13,6 +13,8 @@ class Artist
     song.artist = self
   end
   
-  def song
+  def songs
+    @songs
+  end
 
 end
